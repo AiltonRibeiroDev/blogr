@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+:root {
+  --color-body: #ffffff;
+  --color-header: #ff8f71;
+
+  --color-font-primary: #ffffff;
+  --color-font-secundary: #1f3e5a;
+}
+
+
+
