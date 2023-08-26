@@ -5,34 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blogr</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
 
   <body>
+    <!--      Nav  Bar    -->
+
     <header>
       <nav>
-
         <div class="iconLogo">
-            <img src="img/Blogr.svg" alt="Logo" />
-            <img id="burguer" src="img/Groupmenu.svg" alt="Burguer menu" onclick="menuOpenClose()">
+          <img src="img/Blogr.svg" alt="Logo" />
+          <img
+            class="logo"
+            id="burguer"
+            src="img/Groupmenu.svg"
+            alt="Burguer menu"
+            onclick="menuOpenClose()"
+          />
         </div>
-       
+
         <div class="nav-btn" id="nav-btn-links">
-            <div class="link--btn">
-                <a href="#">Product</a>
-                <a href="#">Company</a>
-                <a href="">Connect</a>
-            </div>
-         
+          <div class="link--btn">
+            <a href="#">Product</a>
+            <a href="#">Company</a>
+            <a href="">Connect</a>
+          </div>
+
           <div class="login">
-            <a href="#">Login</a>
+            <a class="link-a" href="#">Login</a>
             <a class="btn-signUp" href="#">Sign Up</a>
           </div>
         </div>
       </nav>
-      <section class="acess">
+      <section class="acess" id="acess">
+        <div>
+          <h1>A modern</h1>
+          <h1>publishing platform</h1>
+        </div>
 
+        <p>Grow your audience and build your online brand</p>
+        <section class="btn-toUse">
+          <button class="btn-botton btn-white">Start for Free</button>
+          <button class="btn-botton btn-pink">Learn More</button>
+        </section>
       </section>
     </header>
+
+    <!--      Conteúdo           -->
+
+    <main>
+      <h1>Designed for the future</h1>
+      <section class="section--primary">
+        <img class="img-1" src="img/Maskgrafico.png" alt="" />
+        <div class="box-section">
+          <h3>Introducing an extensible editor</h3>
+          <p>
+            Blogr features an exceedingly intuitive interface which lets you
+            focus on one thing: creating content. The editor supports management
+            of multiple blogs and allows easy manipulation of embeds such as
+            images, videos, and Markdown. Extensibility with plugins and themes
+            provide easy ways to add functionality or change the looks of a
+            blog.
+          </p>
+          <h3>Robust content management</h3>
+          <p>
+            Flexible content management enables users to easily move through
+            posts. Increase the usability of your blog by adding customized
+            categories, sections, format, or flow. With this functionality,
+            you’re in full control.
+          </p>
+        </div>
+      </section>
+
+      <section class="box-phone">
+        <img class="smart-phone" src="img/celular.svg" alt="SmartPhone" />
+<div class="box-phone-div">
+  <h1>State of the Art Infrastructure</h1>
+  <p>
+    With reliability and speed in mind, worldwide data centers provide the
+    backbone for ultra-fast connectivity. This ensures your site will load
+    instantly, no matter where your readers are, keeping your site
+    competitive.
+  </p>
+</div>
+       
+      </section>
+
+      <section class="box-laptop">
+        <img src="img/1 1.svg" alt="" />
+        <div class="div-lapTop"> <h1>Free, open, simple</h1>
+          <p>
+            Blogr is a free and open source application backed by a large
+            community of helpful developers. It supports features such as code
+            syntax highlighting, RSS feeds, social media integration, third-party
+            commenting tools, and works seamlessly with Google Analytics. The
+            architecture is clean and is relatively easy to learn.
+          </p>
+          <h1>Powerful tooling</h1>
+          <p>
+            Batteries included. We built a simple and straightforward CLI tool
+            that makes customization and deployment a breeze, but capable of
+            producing even the most complicated sites.
+          </p></div>
+       
+      </section>
+    </main>
+
+
+
+<footer>
+  <a class="logoFooter" href="index.html"> <img src="img/Blogr.svg" alt=""></a>
+ 
+  <div class="footer-list">
+<h4>Product</h4>
+<ul>
+  <li>Overview</li>
+  <li>Princing</li>
+  <li>Msrketplace</li>
+  <li>Features</li>
+  <li>Integrations</li>
+</ul>
+  </div>
+
+  <div class="footer-list">
+    <h4>Company</h4>
+    <ul>
+      <li>About</li>
+      <li>Team</li>
+      <li>Blog</li>
+      <li>Careers</li>
+    </ul>
+  </div>
+
+  <div class="footer-list">
+    <h4>Connect</h4>
+    <ul>
+      <li>Contact</li>
+      <li>Newslwtter</li>
+      <li>LinkedIn</li>
+    </ul>
+  </div>
+</footer>
+
+
+
     <script src="js/script.js"></script>
   </body>
 </html>

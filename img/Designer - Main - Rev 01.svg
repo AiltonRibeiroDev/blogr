@@ -1,0 +1,24 @@
+<svg width="237" height="158" viewBox="0 0 237 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Designer - Main - Rev 01">
+<rect id="Mask" width="237" height="157.94" rx="3" fill="url(#paint0_linear_0_71)"/>
+<mask id="mask0_0_71" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="237" height="158">
+<rect id="Mask_2" width="237" height="157.94" rx="3" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_71)">
+<rect id="Mask Copy" x="-0.1521" y="28.3521" width="237" height="129.709" rx="3" fill="#F9F6F6"/>
+<g id="Group 7">
+<rect id="Mask Copy 2" x="33.4775" y="17.6147" width="49.9507" height="120.635" rx="3" fill="white"/>
+<rect id="Mask Copy 3" x="91.9304" y="17.6147" width="111.592" height="120.635" rx="3" fill="white"/>
+<rect id="Mask Copy 4" x="96.7129" y="24.0203" width="102.027" height="28.2905" rx="3" fill="#E7E7E7"/>
+<rect id="Mask Copy 5" x="96.7129" y="58.1824" width="30.2892" height="28.2905" rx="3" fill="#E7E7E7"/>
+<rect id="Mask Copy 6" x="134.442" y="58.1824" width="64.2982" height="28.2905" rx="3" fill="#E7E7E7"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_71" x1="-118.5" y1="78.97" x2="27.2695" y2="297.707" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8F71"/>
+<stop offset="1" stop-color="#FF3E55"/>
+</linearGradient>
+</defs>
+</svg>
